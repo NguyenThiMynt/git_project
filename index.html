@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<!-- alt+shift+số:để chia mà hình
+ -->
+<!--  ctrl+shift+d: copy dòng trên xướng dòng dưới
+ --> 
+ <!DOCTYPE html>
 <html>
 	<head>
 
@@ -28,7 +32,7 @@
 		<p>tôi là<span style="color: red">Mỹ</span></p>
 		<!-- đường dẫn tương đối so với thư mục-->
 		<img src="/git_demo/tải xuống.jpg" title="ảnh khi hover qua" alt="ảnh không tồn tại" width="60px" height="60px" />
-		<table border="1" cellspacing="0" cellpadding="6">
+		<table border="1" cellspacing="0" cellpadding="6"><!-- cellpadding là khai báo khoảng cách giữa nội dung trong ô so với đường viền và cellspacing là khai báo khoảng cách giữa viền trên và viền dưới của đường viền -->
 			<thead>
 				<tr>
 					<th>Tên</th> <!-- in đậm chữ -->
@@ -37,13 +41,13 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
+				<tr><!-- hàng -->
 					<td>Mỹ</td>
 					<td>Bắc Ninh</td>
 					<td>22</td>
 				</tr>
 				<tr>
-					<td>Nga</td>
+					<td>Nga</td><!-- cột -->
 					<td>Bắc Ninh</td>
 					<td>22</td>
 				</tr>
@@ -69,5 +73,22 @@
 			<li>tuyển dụng</li>
 		<ol>
 			<a href="http://google.vn" target="blank">Click để trang google</a>
+			<form action="">
+				<ul>
+					<li>Nhập tên: <input type="text" name="Tên" value="nhập tên"></li>
+					<li>Địa chỉ: <input type="text" name="Tên" ></li>
+					<li>Ngày sinh: <input type="text" name="Tên" ></li>
+				</ul>
+				<button type="submit">Đăng nhập</button>
+			</form>
+			<input type="text" name="inputname" id="inputid" value=""/>
+			<input type="text" name="inputname" id="inputid" value="Hello 'freetuts.net'"/>
+			<a href="https://freetuts.net" target="_blank" title="học lập trình online" rel="follow, index">Freetuts.net</a><!-- _blank thì nó sẽ chuyên link trên tab mới -->
+			<img src="http://www.w3schools.com/TAGS/planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+ 
+<map name="planetmap">
+    <area shape="rect" coords="0,0,82,126" alt="Sun" href="http://www.w3schools.com/images/sun.gif">
+</map>
+
 	</body>
 </html>
