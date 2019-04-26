@@ -7,6 +7,8 @@
 	<head>
 
 		<title>Học php</title>
+		<link rel="stylesheet" type="text/css" href="/git_demo/style.css">
+		
 	</head>
 	<body>
 		Đây là phần body
@@ -89,6 +91,60 @@
 <map name="planetmap">
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="http://www.w3schools.com/images/sun.gif">
 </map>
+</br>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<table border="1" cellspacing="0" cellpadding="6">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Value</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Name</td>
+						<td><input type="text" name="txtname" placeholder="Mời bạn nhập tên"></td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>
+						<input type="radio" name="rd1">Male
+					</br>
+						<input type="radio" name="rd2">Female
+					</td>
+				</tr>
+				<tr>
+					<td>Eye Color</td>
+					<td>
+						<select>
+							<option>green</option>
+							<option>red</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Check all that apply</td>
+					<td>
+						<input type="checkbox" name="ck1">Over 6 feet tall
+					<br />
+						<input type="checkbox" name="ck2">Over 2000 pound
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">Describe your athletic abiliti</td>
+				</tr>
+				<tr>
+					<td colspan="2"><textarea cols="40" rows="5"></textarea></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" name="sb" value="Enter my information"></td>
+				</tr>
+				
+			</tfoot>
+		</table>
+	</form>
 
 	</body>
 </html>
